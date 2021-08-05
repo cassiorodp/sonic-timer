@@ -218,7 +218,7 @@ class Timer extends Component {
           </div>
           <div className='section-start-stop-buttons'>
             <button className='eg-button' disabled={buttonDisable} onClick={this.changeCharacter}>Easter egg, shhhh</button>
-            <button className='eg-secret-button' disabled={buttonDisable} onClick={this.secretCharacter}>Easter egg, nintendo don't sue me plz</button>
+            <button className='eg-secret-button' disabled={buttonDisable} onClick={this.secretCharacter}>Nintendo don't sue me plz</button>
           </div>
         </section>
       </div>
