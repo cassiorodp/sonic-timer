@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/sonic-timer/static/css/main.f66ab1e8.chunk.css",
-    "main.js": "/sonic-timer/static/js/main.592df76b.chunk.js",
-    "main.js.map": "/sonic-timer/static/js/main.592df76b.chunk.js.map",
+    "main.css": "/sonic-timer/static/css/main.1ee0c515.chunk.css",
+    "main.js": "/sonic-timer/static/js/main.f5467c6e.chunk.js",
+    "main.js.map": "/sonic-timer/static/js/main.f5467c6e.chunk.js.map",
     "runtime-main.js": "/sonic-timer/static/js/runtime-main.06989932.js",
     "runtime-main.js.map": "/sonic-timer/static/js/runtime-main.06989932.js.map",
     "static/js/2.9bc9121a.chunk.js": "/sonic-timer/static/js/2.9bc9121a.chunk.js",
@@ -10,20 +10,35 @@
     "static/js/3.0f219b34.chunk.js": "/sonic-timer/static/js/3.0f219b34.chunk.js",
     "static/js/3.0f219b34.chunk.js.map": "/sonic-timer/static/js/3.0f219b34.chunk.js.map",
     "index.html": "/sonic-timer/index.html",
-    "static/css/main.f66ab1e8.chunk.css.map": "/sonic-timer/static/css/main.f66ab1e8.chunk.css.map",
+    "static/css/main.1ee0c515.chunk.css.map": "/sonic-timer/static/css/main.1ee0c515.chunk.css.map",
     "static/js/2.9bc9121a.chunk.js.LICENSE.txt": "/sonic-timer/static/js/2.9bc9121a.chunk.js.LICENSE.txt",
+    "static/media/Final_Zone.ad4c9982.mp3": "/sonic-timer/static/media/Final_Zone.ad4c9982.mp3",
+    "static/media/Labyrinth_Zone.beb2fb32.mp3": "/sonic-timer/static/media/Labyrinth_Zone.beb2fb32.mp3",
+    "static/media/Scrap_Brain_Zone.c6919242.mp3": "/sonic-timer/static/media/Scrap_Brain_Zone.c6919242.mp3",
+    "static/media/Spring_Yard_Zone.75ac0492.mp3": "/sonic-timer/static/media/Spring_Yard_Zone.75ac0492.mp3",
+    "static/media/Star_Light_Zone.82c7a947.mp3": "/sonic-timer/static/media/Star_Light_Zone.82c7a947.mp3",
     "static/media/App.css": "/sonic-timer/static/media/green-hill-wallpaper.79985645.png",
+    "static/media/green_hill.ecc9dd2e.mp3": "/sonic-timer/static/media/green_hill.ecc9dd2e.mp3",
+    "static/media/marble_zone.9d4f3866.mp3": "/sonic-timer/static/media/marble_zone.9d4f3866.mp3",
+    "static/media/mario-running.b27e97fd.gif": "/sonic-timer/static/media/mario-running.b27e97fd.gif",
+    "static/media/mario-sound.71f05786.mp3": "/sonic-timer/static/media/mario-sound.71f05786.mp3",
+    "static/media/mario-waiting.818fd17b.gif": "/sonic-timer/static/media/mario-waiting.818fd17b.gif",
+    "static/media/sonic-boing.c3f5b32e.mp3": "/sonic-timer/static/media/sonic-boing.c3f5b32e.mp3",
     "static/media/sonic-jump.60549342.mp3": "/sonic-timer/static/media/sonic-jump.60549342.mp3",
     "static/media/sonic-ring.ac0c09fc.mp3": "/sonic-timer/static/media/sonic-ring.ac0c09fc.mp3",
     "static/media/sonic-rings-drop.04fe971c.mp3": "/sonic-timer/static/media/sonic-rings-drop.04fe971c.mp3",
     "static/media/sonic-running.ec074dfa.gif": "/sonic-timer/static/media/sonic-running.ec074dfa.gif",
+    "static/media/sonic-spindash.9d9d3dcb.mp3": "/sonic-timer/static/media/sonic-spindash.9d9d3dcb.mp3",
     "static/media/sonic-waiting.7637f4fc.gif": "/sonic-timer/static/media/sonic-waiting.7637f4fc.gif",
-    "static/media/sonic_music.ecc9dd2e.mp3": "/sonic-timer/static/media/sonic_music.ecc9dd2e.mp3"
+    "static/media/tails-running.f0489e6b.gif": "/sonic-timer/static/media/tails-running.f0489e6b.gif",
+    "static/media/tails-sound.4f414bc9.mp3": "/sonic-timer/static/media/tails-sound.4f414bc9.mp3",
+    "static/media/tails-waiting.cd74ec78.gif": "/sonic-timer/static/media/tails-waiting.cd74ec78.gif",
+    "static/media/youre-too-slow.2099b245.mp3": "/sonic-timer/static/media/youre-too-slow.2099b245.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.06989932.js",
     "static/js/2.9bc9121a.chunk.js",
-    "static/css/main.f66ab1e8.chunk.css",
-    "static/js/main.592df76b.chunk.js"
+    "static/css/main.1ee0c515.chunk.css",
+    "static/js/main.f5467c6e.chunk.js"
   ]
 }
