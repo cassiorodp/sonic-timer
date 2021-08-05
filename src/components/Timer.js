@@ -34,9 +34,9 @@ class Timer extends Component {
     }
   }
 
-  addMin = () => {
+  addMin = ({target: {value}}) => {
     this.setState(({ min }) => ({
-      min: min + 1
+      min: min + Number(value)
     }))
     this.sonicJump.play()
   }
@@ -103,7 +103,8 @@ class Timer extends Component {
         <img className='sonic-gif' src={sonicGif} alt='sonic' />
         <section className='buttons-panel'>
           <div className='section-add-time-buttons'>
-            <button className='add-time-buttons' onClick={this.addMin}>+1min</button>
+            <button className='add-time-buttons' value={5} onClick={this.addMin}>+5min</button>
+            <button className='add-time-buttons' value={1} onClick={this.addMin}>+1min</button>
             <button className='add-time-buttons' onClick={this.addSec}>+30sec</button>
           </div>
           <div className='section-start-stop-buttons'>
