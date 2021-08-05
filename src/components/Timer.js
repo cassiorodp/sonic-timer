@@ -55,18 +55,16 @@ class Timer extends Component {
 
     this.setState(({ sec }) => ({
       sec: sec - 1
-    }))
-
-    if (min === 0 && sec === 0) {
-      this.stopTimer()
-    }
-
-    if (sec === 0) {
-      this.setState(({ min }) => ({
-        min: min - 1,
-        sec: 59,
-      }))
-    }
+    }), () => {
+      if (min === 0 && sec === 0) {
+        this.stopTimer()
+      } else if (sec === 0) {
+        this.setState(({ min }) => ({
+          min: min - 1,
+          sec: 59,
+        }))
+      }
+    })
   }
 
   resetTimer = () => {
