@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sonic-timer/static/css/main.3c62c7a7.chunk.css",
-    "main.js": "/sonic-timer/static/js/main.61a5d8b2.chunk.js",
-    "main.js.map": "/sonic-timer/static/js/main.61a5d8b2.chunk.js.map",
+    "main.js": "/sonic-timer/static/js/main.b7e7b968.chunk.js",
+    "main.js.map": "/sonic-timer/static/js/main.b7e7b968.chunk.js.map",
     "runtime-main.js": "/sonic-timer/static/js/runtime-main.06989932.js",
     "runtime-main.js.map": "/sonic-timer/static/js/runtime-main.06989932.js.map",
     "static/js/2.9bc9121a.chunk.js": "/sonic-timer/static/js/2.9bc9121a.chunk.js",
@@ -42,6 +42,6 @@
     "static/js/runtime-main.06989932.js",
     "static/js/2.9bc9121a.chunk.js",
     "static/css/main.3c62c7a7.chunk.css",
-    "static/js/main.61a5d8b2.chunk.js"
+    "static/js/main.b7e7b968.chunk.js"
   ]
 }
