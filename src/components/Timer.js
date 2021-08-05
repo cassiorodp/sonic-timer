@@ -152,6 +152,7 @@ class Timer extends Component {
   }
 
   changeSong = ({ target: { value } }) => {
+    this.pauseTimer();
     this.setState({ song: value }, () => {
       const {song} = this.state;
       this.startMusic = new Audio(song);
