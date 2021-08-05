@@ -85,6 +85,14 @@ class Timer extends Component {
     this.startMusic.play()
   }
 
+  pauseTimer = () => {
+    const { intervalId } = this.state;
+    clearInterval(intervalId);
+    this.setState({ sonicGif: sonic_waiting });
+    this.startMusic.pause();
+    this.sonicRingsFalling.play();
+  }
+
   stopTimer = () => {
     const { intervalId } = this.state;
     clearInterval(intervalId);
@@ -110,6 +118,7 @@ class Timer extends Component {
           </div>
           <div className='section-start-stop-buttons'>
             <button className='start-stop-buttons' onClick={this.startTimer} >START!</button>
+            <button className='start-stop-buttons' onClick={this.pauseTimer} >PAUSE!</button>
             <button className='start-stop-buttons' onClick={this.stopTimer} >STOP!</button>
           </div>
         </section>

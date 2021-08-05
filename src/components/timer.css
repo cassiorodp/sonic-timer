@@ -1,5 +1,7 @@
 .timer-title {
   font-size: 120px;
+  font-family: 'VT323', monospace;
+  font-weight: 200;
   color: #91FF00;
 }
 
