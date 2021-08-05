@@ -152,7 +152,10 @@ class Timer extends Component {
   }
 
   changeSong = ({ target: { value } }) => {
-    this.setState({ song: value })
+    this.setState({ song: value }, () => {
+      const {song} = this.state;
+      this.startMusic = new Audio(song);
+    });
   }
 
   changeCharacter = () => {
