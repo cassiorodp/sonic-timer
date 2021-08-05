@@ -88,10 +88,11 @@ class Timer extends Component {
   stopTimer = () => {
     const { intervalId } = this.state;
     clearInterval(intervalId);
-    this.setState({ sonicGif: sonic_waiting })
-    this.startMusic.pause()
-    this.sonicRingsFalling.play()
-    this.resetTimer()
+    this.setState({ sonicGif: sonic_waiting });
+    this.startMusic.pause();
+    this.startMusic.currentTime = 0;
+    this.sonicRingsFalling.play();
+    this.resetTimer();
   }
 
   render() {
