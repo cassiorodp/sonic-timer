@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/sonic-timer/static/css/main.1ee0c515.chunk.css",
-    "main.js": "/sonic-timer/static/js/main.f5467c6e.chunk.js",
-    "main.js.map": "/sonic-timer/static/js/main.f5467c6e.chunk.js.map",
+    "main.css": "/sonic-timer/static/css/main.3c62c7a7.chunk.css",
+    "main.js": "/sonic-timer/static/js/main.25a3e9c4.chunk.js",
+    "main.js.map": "/sonic-timer/static/js/main.25a3e9c4.chunk.js.map",
     "runtime-main.js": "/sonic-timer/static/js/runtime-main.06989932.js",
     "runtime-main.js.map": "/sonic-timer/static/js/runtime-main.06989932.js.map",
     "static/js/2.9bc9121a.chunk.js": "/sonic-timer/static/js/2.9bc9121a.chunk.js",
@@ -10,12 +10,15 @@
     "static/js/3.0f219b34.chunk.js": "/sonic-timer/static/js/3.0f219b34.chunk.js",
     "static/js/3.0f219b34.chunk.js.map": "/sonic-timer/static/js/3.0f219b34.chunk.js.map",
     "index.html": "/sonic-timer/index.html",
-    "static/css/main.1ee0c515.chunk.css.map": "/sonic-timer/static/css/main.1ee0c515.chunk.css.map",
+    "static/css/main.3c62c7a7.chunk.css.map": "/sonic-timer/static/css/main.3c62c7a7.chunk.css.map",
     "static/js/2.9bc9121a.chunk.js.LICENSE.txt": "/sonic-timer/static/js/2.9bc9121a.chunk.js.LICENSE.txt",
+    "static/media/Boss_Theme.c2a898e1.mp3": "/sonic-timer/static/media/Boss_Theme.c2a898e1.mp3",
     "static/media/Final_Zone.ad4c9982.mp3": "/sonic-timer/static/media/Final_Zone.ad4c9982.mp3",
     "static/media/Labyrinth_Zone.beb2fb32.mp3": "/sonic-timer/static/media/Labyrinth_Zone.beb2fb32.mp3",
     "static/media/Scrap_Brain_Zone.c6919242.mp3": "/sonic-timer/static/media/Scrap_Brain_Zone.c6919242.mp3",
+    "static/media/Special_Stage.079e0cef.mp3": "/sonic-timer/static/media/Special_Stage.079e0cef.mp3",
     "static/media/Spring_Yard_Zone.75ac0492.mp3": "/sonic-timer/static/media/Spring_Yard_Zone.75ac0492.mp3",
+    "static/media/Staff_Roll.df058707.mp3": "/sonic-timer/static/media/Staff_Roll.df058707.mp3",
     "static/media/Star_Light_Zone.82c7a947.mp3": "/sonic-timer/static/media/Star_Light_Zone.82c7a947.mp3",
     "static/media/App.css": "/sonic-timer/static/media/green-hill-wallpaper.79985645.png",
     "static/media/green_hill.ecc9dd2e.mp3": "/sonic-timer/static/media/green_hill.ecc9dd2e.mp3",
@@ -38,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.06989932.js",
     "static/js/2.9bc9121a.chunk.js",
-    "static/css/main.1ee0c515.chunk.css",
-    "static/js/main.f5467c6e.chunk.js"
+    "static/css/main.3c62c7a7.chunk.css",
+    "static/js/main.25a3e9c4.chunk.js"
   ]
 }
