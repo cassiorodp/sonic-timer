@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/sonic-timer/static/css/main.e89633db.chunk.css",
+    "main.js": "/sonic-timer/static/js/main.0e8f7665.chunk.js",
+    "main.js.map": "/sonic-timer/static/js/main.0e8f7665.chunk.js.map",
+    "runtime-main.js": "/sonic-timer/static/js/runtime-main.06989932.js",
+    "runtime-main.js.map": "/sonic-timer/static/js/runtime-main.06989932.js.map",
+    "static/js/2.9bc9121a.chunk.js": "/sonic-timer/static/js/2.9bc9121a.chunk.js",
+    "static/js/2.9bc9121a.chunk.js.map": "/sonic-timer/static/js/2.9bc9121a.chunk.js.map",
+    "static/js/3.0f219b34.chunk.js": "/sonic-timer/static/js/3.0f219b34.chunk.js",
+    "static/js/3.0f219b34.chunk.js.map": "/sonic-timer/static/js/3.0f219b34.chunk.js.map",
+    "index.html": "/sonic-timer/index.html",
+    "static/css/main.e89633db.chunk.css.map": "/sonic-timer/static/css/main.e89633db.chunk.css.map",
+    "static/js/2.9bc9121a.chunk.js.LICENSE.txt": "/sonic-timer/static/js/2.9bc9121a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/sonic-timer/static/media/green-hill-wallpaper.79985645.png",
+    "static/media/sonic-jump.60549342.mp3": "/sonic-timer/static/media/sonic-jump.60549342.mp3",
+    "static/media/sonic-ring.ac0c09fc.mp3": "/sonic-timer/static/media/sonic-ring.ac0c09fc.mp3",
+    "static/media/sonic-rings-drop.04fe971c.mp3": "/sonic-timer/static/media/sonic-rings-drop.04fe971c.mp3",
+    "static/media/sonic-running.ec074dfa.gif": "/sonic-timer/static/media/sonic-running.ec074dfa.gif",
+    "static/media/sonic-waiting.7637f4fc.gif": "/sonic-timer/static/media/sonic-waiting.7637f4fc.gif",
+    "static/media/sonic_music.ecc9dd2e.mp3": "/sonic-timer/static/media/sonic_music.ecc9dd2e.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06989932.js",
+    "static/js/2.9bc9121a.chunk.js",
+    "static/css/main.e89633db.chunk.css",
+    "static/js/main.0e8f7665.chunk.js"
+  ]
+}
