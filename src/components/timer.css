@@ -1,0 +1,39 @@
+.timer-title {
+  font-size: 120px;
+  color: #91FF00;
+}
+
+.buttons-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-start-stop-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.start-stop-buttons {
+  background-color: #5E5EE4;
+  padding: 10px;
+}
+
+.section-add-time-buttons{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  width: 30%;
+}
+
+.add-time-buttons {
+  background-color: #5E5EE4;
+  padding: 10px;
+}
+
+.sonic-gif {
+  margin: 20px;
+  height: 150px;
+}
