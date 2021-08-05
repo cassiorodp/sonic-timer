@@ -61,10 +61,10 @@ class Timer extends Component {
       this.stopTimer()
     }
 
-    if (sec < 0) {
+    if (sec === 0) {
       this.setState(({ min }) => ({
         min: min - 1,
-        sec: 60,
+        sec: 59,
       }))
     }
   }
@@ -83,6 +83,7 @@ class Timer extends Component {
       intervalId: intervalId,
       sonicGif: sonic_running
     })
+    this.startMusic.loop = true;
     this.startMusic.play()
   }
 
