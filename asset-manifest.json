@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sonic-timer/static/css/main.3c62c7a7.chunk.css",
-    "main.js": "/sonic-timer/static/js/main.25a3e9c4.chunk.js",
-    "main.js.map": "/sonic-timer/static/js/main.25a3e9c4.chunk.js.map",
+    "main.js": "/sonic-timer/static/js/main.4f9dc61b.chunk.js",
+    "main.js.map": "/sonic-timer/static/js/main.4f9dc61b.chunk.js.map",
     "runtime-main.js": "/sonic-timer/static/js/runtime-main.06989932.js",
     "runtime-main.js.map": "/sonic-timer/static/js/runtime-main.06989932.js.map",
     "static/js/2.9bc9121a.chunk.js": "/sonic-timer/static/js/2.9bc9121a.chunk.js",
@@ -20,6 +20,7 @@
     "static/media/Spring_Yard_Zone.75ac0492.mp3": "/sonic-timer/static/media/Spring_Yard_Zone.75ac0492.mp3",
     "static/media/Staff_Roll.df058707.mp3": "/sonic-timer/static/media/Staff_Roll.df058707.mp3",
     "static/media/Star_Light_Zone.82c7a947.mp3": "/sonic-timer/static/media/Star_Light_Zone.82c7a947.mp3",
+    "static/media/drowning.d096dd8a.mp3": "/sonic-timer/static/media/drowning.d096dd8a.mp3",
     "static/media/App.css": "/sonic-timer/static/media/green-hill-wallpaper.79985645.png",
     "static/media/green_hill.ecc9dd2e.mp3": "/sonic-timer/static/media/green_hill.ecc9dd2e.mp3",
     "static/media/marble_zone.9d4f3866.mp3": "/sonic-timer/static/media/marble_zone.9d4f3866.mp3",
@@ -35,13 +36,12 @@
     "static/media/sonic-waiting.7637f4fc.gif": "/sonic-timer/static/media/sonic-waiting.7637f4fc.gif",
     "static/media/tails-running.f0489e6b.gif": "/sonic-timer/static/media/tails-running.f0489e6b.gif",
     "static/media/tails-sound.4f414bc9.mp3": "/sonic-timer/static/media/tails-sound.4f414bc9.mp3",
-    "static/media/tails-waiting.cd74ec78.gif": "/sonic-timer/static/media/tails-waiting.cd74ec78.gif",
-    "static/media/youre-too-slow.2099b245.mp3": "/sonic-timer/static/media/youre-too-slow.2099b245.mp3"
+    "static/media/tails-waiting.cd74ec78.gif": "/sonic-timer/static/media/tails-waiting.cd74ec78.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.06989932.js",
     "static/js/2.9bc9121a.chunk.js",
     "static/css/main.3c62c7a7.chunk.css",
-    "static/js/main.25a3e9c4.chunk.js"
+    "static/js/main.4f9dc61b.chunk.js"
   ]
 }
