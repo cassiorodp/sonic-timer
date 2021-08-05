@@ -77,7 +77,7 @@ class Timer extends Component {
   }
 
   startTimer = () => {
-    const ONE_SECOND = 10
+    const ONE_SECOND = 1000
     let intervalId = setInterval(this.count, ONE_SECOND)
     this.setState({
       intervalId: intervalId,
