@@ -25,6 +25,10 @@
   padding: 10px;
 }
 
+.start-stop-buttons:disabled {
+  background-color: #6c757d;
+}
+
 .section-add-time-buttons{
   display: flex;
   flex: 1 1 auto;
@@ -61,7 +65,15 @@
   font-family: 'VT323', monospace;
 }
 
+.eg-button:disabled {
+  background-color: #6c757d;
+}
+
 .eg-secret-button {
   background-color: #B12660;
   font-family: 'VT323', monospace;
+}
+
+.eg-secret-button:disabled {
+  background-color: #6c757d;
 }

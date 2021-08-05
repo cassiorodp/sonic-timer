@@ -14,6 +14,9 @@ import labirynth_zone from '../sound_fx/Labyrinth_Zone.mp3'
 import star_light_zone from '../sound_fx/Star_Light_Zone.mp3'
 import scrap_brain_zone from '../sound_fx/Scrap_Brain_Zone.mp3'
 import final_zone from '../sound_fx/Final_Zone.mp3'
+import boss_theme from '../sound_fx/Boss_Theme.mp3'
+import special_stage from '../sound_fx/Special_Stage.mp3'
+import staff_roll from '../sound_fx/Staff_Roll.mp3'
 import sonic_ring_falling from '../sound_fx/sonic-rings-drop.mp3'
 import too_slow from '../sound_fx/youre-too-slow.mp3'
 import sonic_jump from '../sound_fx/sonic-jump.mp3'
@@ -33,6 +36,7 @@ class Timer extends Component {
       gifImage: sonic_waiting,
       min: 0,
       sec: 0,
+      buttonDisable: false,
     };
 
     const { song } = this.state;
@@ -62,8 +66,8 @@ class Timer extends Component {
     this.setState(({ min }) => ({
       min: min + Number(value)
     }))
-    if (value === '5') this.sonicJump.play();
-    if (value === '1') this.sonicSpin.play();
+    if (value === '5') this.sonicSpin.play();
+    if (value === '1') this.sonicJump.play();
   }
 
   addSec = () => {
@@ -114,6 +118,7 @@ class Timer extends Component {
     this.startMusic = new Audio(song);
     this.startMusic.loop = true;
     this.startMusic.play()
+    this.setState({buttonDisable: true})
   }
 
   pauseTimer = () => {
@@ -124,6 +129,7 @@ class Timer extends Component {
     if (character === 'secret') this.setState({ gifImage: mario_waiting })
     this.startMusic.pause();
     this.sonicBoing.play();
+    this.setState({buttonDisable: false})
   }
 
   stopTimer = () => {
@@ -136,6 +142,7 @@ class Timer extends Component {
     this.startMusic.currentTime = 0;
     this.sonicRingsFalling.play();
     this.resetTimer();
+    this.setState({buttonDisable: false})
   }
 
   muteSong = () => {
@@ -177,7 +184,7 @@ class Timer extends Component {
   }
 
   render() {
-    const { gifImage, min, sec, character } = this.state;
+    const { gifImage, min, sec, character, buttonDisable } = this.state;
     return (
       <div>
         <h1 className='timer-title'>Sonic Timer</h1>
@@ -193,6 +200,9 @@ class Timer extends Component {
               <option value={star_light_zone}>Star Light Zone</option>
               <option value={scrap_brain_zone}>Scrap Brain Zone</option>
               <option value={final_zone}>Final Zone</option>
+              <option value={boss_theme}>Boss Theme</option>
+              <option value={special_stage}>Special Stage</option>
+              <option value={staff_roll}>Staff Roll</option>
             </select>
           </div>
           <div className='section-add-time-buttons'>
@@ -202,7 +212,7 @@ class Timer extends Component {
 
           </div>
           <div className='section-start-stop-buttons'>
-            <button className='start-stop-buttons' onClick={this.startTimer} >START!</button>
+            <button className='start-stop-buttons' disabled={buttonDisable} onClick={this.startTimer} >START!</button>
             <button className='start-stop-buttons' onClick={this.pauseTimer} >PAUSE!</button>
             <button className='start-stop-buttons' onClick={this.stopTimer} >STOP!</button>
           </div>
@@ -211,8 +221,8 @@ class Timer extends Component {
             <button className='mute-button' onClick={this.muteSong}><i class="fas fa-volume-mute"></i></button>
           </div>
           <div className='section-start-stop-buttons'>
-            <button className='eg-button' onClick={this.changeCharacter}>Easter egg, shhhh</button>
-            <button className='eg-secret-button' onClick={this.secretCharacter}>Easter egg, nintendo don't sue me plz</button>
+            <button className='eg-button' disabled={buttonDisable} onClick={this.changeCharacter}>Easter egg, shhhh</button>
+            <button className='eg-secret-button' disabled={buttonDisable} onClick={this.secretCharacter}>Easter egg, nintendo don't sue me plz</button>
           </div>
         </section>
       </div>
