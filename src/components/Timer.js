@@ -114,8 +114,6 @@ class Timer extends Component {
     if (character === 'sonic') this.setState({ gifImage: sonic_running })
     if (character === 'tails') this.setState({ gifImage: tails_running })
     if (character === 'secret') this.setState({ gifImage: mario_running })
-    const { song } = this.state
-    this.startMusic = new Audio(song);
     this.startMusic.loop = true;
     this.startMusic.play()
     this.setState({buttonDisable: true})
