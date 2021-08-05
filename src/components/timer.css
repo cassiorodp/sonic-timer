@@ -13,7 +13,7 @@
   display: flex;
   justify-content: space-evenly;
   margin-top: 20px;
-  width: 50%;
+  width: 60%;
 }
 
 .start-stop-buttons {
@@ -23,9 +23,10 @@
 
 .section-add-time-buttons{
   display: flex;
+  flex: 1 1 auto;
   justify-content: space-evenly;
   margin-top: 20px;
-  width: 30%;
+  width: 50%;
 }
 
 .add-time-buttons {
