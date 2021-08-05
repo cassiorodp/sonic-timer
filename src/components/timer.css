@@ -20,6 +20,8 @@
 
 .start-stop-buttons {
   background-color: #E00101;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
   padding: 10px;
 }
 
@@ -33,10 +35,33 @@
 
 .add-time-buttons {
   background-color: #5E5EE4;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
   padding: 10px;
 }
 
 .sonic-gif {
   margin: 20px;
   height: 150px;
+}
+
+.select-theme {
+  background-color: #006D00;
+  padding: 5px;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+}
+
+.mute-button:active {
+  background-color: #E00101;
+}
+
+.eg-button {
+  background-color: #EFA800;
+  font-family: 'VT323', monospace;
+}
+
+.eg-secret-button {
+  background-color: #B12660;
+  font-family: 'VT323', monospace;
 }
