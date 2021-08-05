@@ -18,7 +18,7 @@ import boss_theme from '../sound_fx/Boss_Theme.mp3'
 import special_stage from '../sound_fx/Special_Stage.mp3'
 import staff_roll from '../sound_fx/Staff_Roll.mp3'
 import sonic_ring_falling from '../sound_fx/sonic-rings-drop.mp3'
-import too_slow from '../sound_fx/youre-too-slow.mp3'
+import sonic_drowning from '../sound_fx/drowning.mp3'
 import sonic_jump from '../sound_fx/sonic-jump.mp3'
 import sonic_ring from '../sound_fx/sonic-ring.mp3'
 import sonic_boing from '../sound_fx/sonic-boing.mp3'
@@ -42,8 +42,8 @@ class Timer extends Component {
     const { song } = this.state;
     this.startMusic = new Audio(song);
     this.startMusic.muted = false;
-    this.tooSlow = new Audio(too_slow);
     this.sonicRingsFalling = new Audio(sonic_ring_falling);
+    this.sonicDrowning = new Audio(sonic_drowning);
     this.sonicJump = new Audio(sonic_jump);
     this.sonicRing = new Audio(sonic_ring);
     this.sonicBoing = new Audio(sonic_boing);
@@ -165,12 +165,6 @@ class Timer extends Component {
     this.tailsSound.play();
   }
 
-  secretSoungEG = () => {
-    setTimeout(() => {
-      this.tooSlow.play();
-    }, 4000)
-  }
-
   secretCharacter = () => {
     this.setState({
       character: 'secret',
@@ -179,8 +173,12 @@ class Timer extends Component {
     this.marioSound.play()
   }
 
-  componentDidMount() {
-    // this.secretSoungEG()
+  componentDidUpdate() {
+    const {min, sec} = this.state;
+    if (min === 0 && sec === 11) {
+      this.sonicDrowning.play();
+      this.startMusic.pause();
+    }
   }
 
   render() {
